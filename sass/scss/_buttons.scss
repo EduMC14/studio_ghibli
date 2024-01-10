@@ -1,0 +1,54 @@
+.btn-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.button {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    text-transform: uppercase;
+    color: $white;
+    cursor: pointer;
+    padding:.5em 2em;
+    text-decoration: none;
+    display: flex;
+}
+
+.btn-1 {
+    background: $green-btn;
+    border: 2px solid transparent;
+    transform: skew(-27deg);
+    display: flex;
+    gap: 10px;
+
+    &:hover {
+        text-decoration:underline ;
+    }   
+}
+
+.btn-2 {
+    border: 2px solid $green-btn;
+    background: transparent;
+    transform: skew(-27deg);
+    
+    &:hover {
+        text-decoration:underline ;
+    }
+}
+
+.btn-1 span, .btn-2 span {
+    transform: skew(27deg);
+}
+
+
+.play-img {
+    width: 13px;
+    height: 15px;
+    margin-top: 6px;
+    margin-left: -10px;
+    transform: skew(27deg);
+}

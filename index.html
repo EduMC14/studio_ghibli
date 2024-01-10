@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sass/css/style.css">
+    <title>Studio Ghibli Challenge</title>
+</head>
+<body>
+    <div class="body">
+        <header class="header-container">
+            <nav class="nav-container">
+                <div>
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/GKIDSfilms" target="_blank"><img src="img/facebook.png" alt=""></a>
+                    <a href="https://www.instagram.com/GKIDSfilms/" target="_blank"><img src="img/instagram.png" alt=""></a>
+                    <a href="https://twitter.com/GKIDSfilms" target="_blank"><img src="img/twitter.png" alt=""></a>
+                    <a href="https://www.youtube.com/channel/UCb9ME2w6Y_4jChUVlWdltVg" target="_blank"><img src="img/youtube.png" alt=""></a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="content-container">
+                <div class="content-text">
+                    <div class="text-box">
+                        <p class="author">Hayao Miyazaki</p>
+                        <h1>EL VIAJE DE CHIHIRO</h1>
+                    </div>
+                    <p class="description">Chihiro llega a un mundo mágico dominado por una bruja. Los que la desobedecen se transforman en animales.</p>
+                    <div class="btn-container">
+                        <a class="button btn-1" href="https://www.netflix.com/br/title/60023642" target="_blank">
+                            <img class="play-img" src="img/play.png" alt="">
+                            <span class="btn-text">Ver Ahora</span>
+                        </a>
+                        <a onclick="toggleVideo();" class="button btn-2" herf="#">
+                            <span class="btn-text">Ver el tráiler</span>
+                        </a>
+                        <div class="trailer">
+                            <video src="img/Spirited_Away_Trailer.mp4" controls="true" autoplay="true"></video>
+                            <img class="close" onclick="toggleVideo();" src="./img/close.png" alt="close button">
+                        </div>
+                    </div>
+                </div>
+                <div class="content-img">
+                    <img src="img/ilustracao.png" alt="">
+                </div>
+            </section>
+        </main>
+        <footer class="footer">Todos los derechos reservados</footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
